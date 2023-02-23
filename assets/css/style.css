@@ -1,0 +1,73 @@
+/* Utilities */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: small;
+}
+
+.flexible{
+    display: flex;
+}
+
+.debug{
+    border: 3px solid red;
+}
+
+
+.relat{
+    position: relative;
+}
+
+.abso{
+    position: absolute;
+}
+
+.container-95{
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+/* Main Elements */
+
+.screen{
+    height: 90vh;
+    background-color: rgb(36, 33, 33);
+}
+
+.slide{
+    width: calc(100vh /14);
+    height: calc(100vh /5);
+}
+
+.slide img{
+    display: block;
+    width: 100%;
+}
+
+.slides{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+/* Footer Elements */
+
+.foot{
+    background-color: rgb(72, 64, 64);
+    color: white;
+    height: 10vh;
+
+
+}
+
+i{
+    display: inline-block;
+    height: 80%;
+}
+
+.leftfoot{
+    align-items: center;
+}
